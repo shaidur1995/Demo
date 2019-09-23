@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body{ font-family: 'Open Sans', sans-serif; background: #8d8d8d; padding: 0px; margin: 0px;}
+ul{margin: 0px; padding: 0px;}
+li{list-style: none;}
+a{ text-decoration: none; color: #000; }
+.main{ background: #fff; max-width: 1200px; margin: 0 auto; }
+.top-nav{ padding: 25px 30px 0px 30px; }
+.top-nav .logo{ width: 400px; float: left; }
+.top-nav .nav ul{ display: block; text-align: right; }
+.top-nav .nav ul li{ display: inline-block; padding: 15px 40px 15px 30px;}

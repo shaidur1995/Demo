@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+body{
+	font-family: 'Open Sans', sans-serif;
+	background: #8d8d8d;
+	padding: 0px;
+	margin: 0px;
+}
+ul{margin: 0px; padding: 0px;}
+li{list-style: none;}
+a{ text-decoration: none; color: #000; }
+.clear {
+	clear: both;
+	min-height: 5px;
+}
+.main{
+	background: #fff;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.top-nav{
+	padding: 25px 30px 0px 30px;
+}
+.top-nav .logo{
+	width: 400px;
+	float: left;
+}
+.top-nav .nav ul{
+	display: block;
+	text-align: right;
+}
+.top-nav .nav ul li{
+	display: inline-block;
+	padding: 15px 40px 15px 30px;
+}
+.top-nav .nav li:last-child:after{
+	display: none;
+}
+.top-nav .nav ul li:after{
+	display: inline-block;
+	position: absolute;
+	content: "|";
+	padding-left: 35px;
+}
+.top-nav .nav ul li.active { 
+	border-bottom: 2px solid #f00;
+}
+.banner-holder { 
+	position: relative;
+	background-image: url(../images/bg.jpg);
+    margin: 0px 40px;
+    min-height: 400px;
+    padding: 100px 50px 0px 50px;
+    border: 1px solid #dedede;
+}
+.banner-holder h1{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1.5em;
+}
+.banner-holder h1 span{
+	color: #d12034;
+}
+.banner-holder .text { 
+	position: relative; 
+	padding-top: 100px;  
+}
+.banner-holder .banner-image {
+    position: absolute;
+    right: 20px;
+    top: 150px;
+}
+#midbar {
+	clear: both;
+	position: relative;
+	margin-bottom: 60px;
+}
+#midbar p{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	line-height: 28px;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 50px 0px 60px 0px;
+}
+#midbar .threecol{
+	position: relative;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	padding: 0 70px;
+}
+#midbar .threecol .innerthumb{
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	padding: 0px 15px;
+}
+#midbar .threecol .innerthumb img{
+	width: 100%;
+}
+#midbar .threecol .innerthumb h2{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+#midbar .threecol .innerthumb h2 a{
+	color: #d12034;
+}
+#midbar .threecol .innerthumb p{
+    padding: 0px;
+    font-size: 0.968em;
+    line-height: 23px;
+}
+
+#footer {
+	margin:0 30px;
+	padding: 20px;
+	background: #434142;
+}
+/*#footer .ftcolumn{
+	position: relative;
+	text-align: left;
+	float: left;
+}*/
+#footer .flogo{
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	width: 20%;
+	float: left;
+	padding: 15px 0px 0px 0px;
+}
+#footer .flogo img{
+	width: 120px;
+}
+#footer .faddress{
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	width: 40%;
+	float: left;
+	color: #fff;
+}
+#footer .fnavi{
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	width: 40%;
+	float: left;
+}
+#footer .fnavi .social ul{
+	display: block;
+	text-align: right;
+}
+#footer .fnavi .social ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+#footer .fnavi .footernav ul{
+	display: block;
+	text-align: right;
+}
+#footer .fnavi .footernav ul li{
+	display: inline-block;
+	padding: 10px;
+    color: #fff;
+}
+#footer .fnavi .footernav li:last-child:after{
+	display: none;
+	content: none;
+}
+#footer .fnavi .footernav ul li:after{
+	display: inline-block;
+	position: absolute;
+	content: "|";
+	padding-left: 7px;
+}
